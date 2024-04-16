@@ -4,7 +4,7 @@ import { mdEnhancePlugin}from 'vuepress-plugin-md-enhance'
 
 
 export default defineUserConfig({
-    title: 'olongfen dev note',
+    title: 'xjellyx dev note',
     plugins:[
         [
             mdEnhancePlugin(
@@ -21,7 +21,7 @@ export default defineUserConfig({
         ]
     ],
     theme: defaultTheme({
-        repo: 'olongfen/olongfen.github.io',
+        repo: 'xjellyx/xjellyx.github.io',
         logo:'/logo.png',
         docsDir: 'docs',
         docsBranch: 'master',

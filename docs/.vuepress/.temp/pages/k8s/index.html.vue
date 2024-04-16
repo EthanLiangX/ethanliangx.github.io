@@ -101,8 +101,8 @@
 <li><em>开机自动启动:</em> <code v-pre>systemctl enable kubelet</code></li>
 </ul>
 <p><code v-pre> 上面命令三个机器都要执行</code><br>
-<a href="https://github.com/olongfen/olongfen.github.io/blob/master/script/k8s_install.sh" target="_blank" rel="noopener noreferrer">关闭防火墙到安装完k8s脚本<ExternalLinkIcon/></a><br>
-<a href="https://github.com/olongfen/olongfen.github.io/blob/master/script/k8s_install_pro.sh" target="_blank" rel="noopener noreferrer">升级版脚本<ExternalLinkIcon/></a></p>
+<a href="https://github.com/xjellyx/xjellyx.github.io/blob/master/script/k8s_install.sh" target="_blank" rel="noopener noreferrer">关闭防火墙到安装完k8s脚本<ExternalLinkIcon/></a><br>
+<a href="https://github.com/xjellyx/xjellyx.github.io/blob/master/script/k8s_install_pro.sh" target="_blank" rel="noopener noreferrer">升级版脚本<ExternalLinkIcon/></a></p>
 <p><code v-pre>重启服务器</code></p>
 <h2 id="_12-部署k8s集群" tabindex="-1"><a class="header-anchor" href="#_12-部署k8s集群" aria-hidden="true">#</a> 12 <strong>部署k8s集群</strong></h2>
 <pre><code>- _Master:_

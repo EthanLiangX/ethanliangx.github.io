@@ -1,9 +1,9 @@
 <template><div><ul>
-<li><a href="https://olongfen.github.io" target="_blank" rel="noopener noreferrer">博客主页<ExternalLinkIcon/></a></li>
+<li><a href="https://xjellyx.github.io" target="_blank" rel="noopener noreferrer">博客主页<ExternalLinkIcon/></a></li>
 </ul>
 <hr>
 <ul>
-<li><a href="https://github.com/olongfen/ddd-template/" target="_blank" rel="noopener noreferrer">go-ddd template<ExternalLinkIcon/></a></li>
+<li><a href="https://github.com/xjellyx/ddd-template/" target="_blank" rel="noopener noreferrer">go-ddd template<ExternalLinkIcon/></a></li>
 </ul>
 <hr>
 <ul>
@@ -15,7 +15,7 @@
 </ul>
 <hr>
 <ul>
-<li><a href="https://github.com/olongfen/gen-id" target="_blank" rel="noopener noreferrer">golang自动生成身份证信息<ExternalLinkIcon/></a></li>
+<li><a href="https://github.com/xjellyx/gen-id" target="_blank" rel="noopener noreferrer">golang自动生成身份证信息<ExternalLinkIcon/></a></li>
 </ul>
 <hr>
 <ul>
@@ -27,15 +27,15 @@
 </ul>
 <hr>
 <ul>
-<li><a href="https://github.com/olongfen/gorm-gin-admin" target="_blank" rel="noopener noreferrer">gorm-gin-admin后台项目<ExternalLinkIcon/></a></li>
+<li><a href="https://github.com/xjellyx/gorm-gin-admin" target="_blank" rel="noopener noreferrer">gorm-gin-admin后台项目<ExternalLinkIcon/></a></li>
 </ul>
 <hr>
 <ul>
-<li><a href="https://github.com/olongfen/gengo" target="_blank" rel="noopener noreferrer">golang自动生成项目代码gengo<ExternalLinkIcon/></a></li>
+<li><a href="https://github.com/xjellyx/gengo" target="_blank" rel="noopener noreferrer">golang自动生成项目代码gengo<ExternalLinkIcon/></a></li>
 </ul>
 <hr>
 <ul>
-<li><a href="https://github.com/olongfen/gen-id" target="_blank" rel="noopener noreferrer">golang自动生成身份证信息gen-id<ExternalLinkIcon/></a></li>
+<li><a href="https://github.com/xjellyx/gen-id" target="_blank" rel="noopener noreferrer">golang自动生成身份证信息gen-id<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>
 

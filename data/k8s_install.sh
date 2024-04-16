@@ -340,4 +340,4 @@ else
 fi
 
 echo "kubernetes安装完毕,部署k8s集群教程请看官网"
-echo "或者我个人博客: https://olongfen.github.io/#/note/kubernetes"
+echo "或者我个人博客: https://xjellyx.github.io/#/note/kubernetes"

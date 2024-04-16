@@ -123,8 +123,8 @@ EOF
   - _开机自动启动:_ `systemctl enable kubelet`  
 
  ` 上面命令三个机器都要执行`     
- [关闭防火墙到安装完k8s脚本](https://github.com/olongfen/olongfen.github.io/blob/master/script/k8s_install.sh)<br>
- [升级版脚本](https://github.com/olongfen/olongfen.github.io/blob/master/script/k8s_install_pro.sh)
+ [关闭防火墙到安装完k8s脚本](https://github.com/xjellyx/xjellyx.github.io/blob/master/script/k8s_install.sh)<br>
+ [升级版脚本](https://github.com/xjellyx/xjellyx.github.io/blob/master/script/k8s_install_pro.sh)
  
  `重启服务器`
 

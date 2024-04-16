@@ -36,9 +36,9 @@ adapter->aplication->domain,domain层代码只像application层暴露。
 <div class="language-go line-numbers-mode" data-ext="go"><pre v-pre class="language-go"><code>        <span class="token keyword">package</span> main
         
         <span class="token keyword">import</span> <span class="token punctuation">(</span>
-        	<span class="token boolean">_</span> <span class="token string">"github.com/olongfen/go-ddd-hex/internal/adapter/repository"</span> <span class="token comment">// 初始化存储库适配器</span>
-        	<span class="token boolean">_</span> <span class="token string">"github.com/olongfen/go-ddd-hex/internal/adapter/xhttp/xgin"</span> <span class="token comment">// 初始化http适配器</span>
-        	<span class="token string">"github.com/olongfen/go-ddd-hex/internal/application"</span>
+        	<span class="token boolean">_</span> <span class="token string">"github.com/xjellyx/go-ddd-hex/internal/adapter/repository"</span> <span class="token comment">// 初始化存储库适配器</span>
+        	<span class="token boolean">_</span> <span class="token string">"github.com/xjellyx/go-ddd-hex/internal/adapter/xhttp/xgin"</span> <span class="token comment">// 初始化http适配器</span>
+        	<span class="token string">"github.com/xjellyx/go-ddd-hex/internal/application"</span>
         <span class="token punctuation">)</span>
         
         <span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -52,13 +52,13 @@ adapter->aplication->domain,domain层代码只像application层暴露。
     <span class="token keyword">import</span> <span class="token punctuation">(</span>
     	<span class="token string">"context"</span>
     	<span class="token string">"errors"</span>
-    	<span class="token string">"github.com/olongfen/go-ddd-hex/config"</span>
-    	<span class="token string">"github.com/olongfen/go-ddd-hex/internal/domain/aggregate"</span>
-    	<span class="token string">"github.com/olongfen/go-ddd-hex/internal/domain/dependency"</span>
-    	<span class="token string">"github.com/olongfen/go-ddd-hex/internal/domain/service"</span>
-    	<span class="token string">"github.com/olongfen/go-ddd-hex/internal/domain/vo"</span>
-    	<span class="token string">"github.com/olongfen/go-ddd-hex/internal/infra/db"</span>
-    	<span class="token string">"github.com/olongfen/go-ddd-hex/lib/utils"</span>
+    	<span class="token string">"github.com/xjellyx/go-ddd-hex/config"</span>
+    	<span class="token string">"github.com/xjellyx/go-ddd-hex/internal/domain/aggregate"</span>
+    	<span class="token string">"github.com/xjellyx/go-ddd-hex/internal/domain/dependency"</span>
+    	<span class="token string">"github.com/xjellyx/go-ddd-hex/internal/domain/service"</span>
+    	<span class="token string">"github.com/xjellyx/go-ddd-hex/internal/domain/vo"</span>
+    	<span class="token string">"github.com/xjellyx/go-ddd-hex/internal/infra/db"</span>
+    	<span class="token string">"github.com/xjellyx/go-ddd-hex/lib/utils"</span>
     	<span class="token string">"github.com/opentracing/opentracing-go"</span>
     	log <span class="token string">"github.com/sirupsen/logrus"</span>
     	<span class="token string">"github.com/uber/jaeger-client-go"</span>
@@ -238,7 +238,7 @@ adapter->aplication->domain,domain层代码只像application层暴露。
 详细内容可以自行google或者阅读上面我推荐两个链接文章，所以一些具体的解释本人就不献丑了，本项目是本人学习领域驱动框架之后
 进行设想开发的，欢迎大家一起指正或者改善。个人觉得应用层可以设计层框架使用，目前暂时还没有idea，也欢迎大佬们讨论。
 </code></pre>
-<p><a href="https://github.com/olongfen/go-ddd-hex" target="_blank" rel="noopener noreferrer">项目地址<ExternalLinkIcon/></a></p>
+<p><a href="https://github.com/xjellyx/go-ddd-hex" target="_blank" rel="noopener noreferrer">项目地址<ExternalLinkIcon/></a></p>
 </div></template>
 
 

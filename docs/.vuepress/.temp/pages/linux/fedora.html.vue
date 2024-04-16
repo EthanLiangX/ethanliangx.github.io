@@ -86,11 +86,11 @@ NetSpeed 显示网速 <br>
 sudo mv -r X-Arc-White /usr/share/themes/</p>
 <h3 id="安装图标也是这样的方法-但是文件要移到-usr-share-icons目录下" tabindex="-1"><a class="header-anchor" href="#安装图标也是这样的方法-但是文件要移到-usr-share-icons目录下" aria-hidden="true">#</a> 安装图标也是这样的方法，但是文件要移到/usr/share/icons目录下</h3>
 <h3 id="安装protobuf脚本" tabindex="-1"><a class="header-anchor" href="#安装protobuf脚本" aria-hidden="true">#</a> 安装protobuf脚本</h3>
-<p><a href="https://github.com/olongfen/olongfen.github.io/blob/master/script/install_protobuf.sh" target="_blank" rel="noopener noreferrer">脚本<ExternalLinkIcon/></a></p>
+<p><a href="https://github.com/xjellyx/xjellyx.github.io/blob/master/script/install_protobuf.sh" target="_blank" rel="noopener noreferrer">脚本<ExternalLinkIcon/></a></p>
 <h3 id="安装-virtualbox脚本" tabindex="-1"><a class="header-anchor" href="#安装-virtualbox脚本" aria-hidden="true">#</a> 安装 VirtualBox脚本</h3>
-<p><a href="https://github.com/olongfen/olongfen.github.io/blob/master/script/virtualBox_install.sh" target="_blank" rel="noopener noreferrer">脚本<ExternalLinkIcon/></a></p>
+<p><a href="https://github.com/xjellyx/xjellyx.github.io/blob/master/script/virtualBox_install.sh" target="_blank" rel="noopener noreferrer">脚本<ExternalLinkIcon/></a></p>
 <h3 id="安装-grpc-环境" tabindex="-1"><a class="header-anchor" href="#安装-grpc-环境" aria-hidden="true">#</a> 安装 grpc 环境</h3>
-<p><a href="https://github.com/olongfen/olongfen.github.io/blob/master/script/install_grpc.sh" target="_blank" rel="noopener noreferrer">脚本<ExternalLinkIcon/></a></p>
+<p><a href="https://github.com/xjellyx/xjellyx.github.io/blob/master/script/install_grpc.sh" target="_blank" rel="noopener noreferrer">脚本<ExternalLinkIcon/></a></p>
 <h3 id="前端项目" tabindex="-1"><a class="header-anchor" href="#前端项目" aria-hidden="true">#</a> 前端项目</h3>
 <ul>
 <li>question

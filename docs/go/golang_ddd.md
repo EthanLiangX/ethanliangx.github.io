@@ -42,9 +42,9 @@ adapter->aplication->domain,domain层代码只像application层暴露。
             package main
             
             import (
-            	_ "github.com/olongfen/go-ddd-hex/internal/adapter/repository" // 初始化存储库适配器
-            	_ "github.com/olongfen/go-ddd-hex/internal/adapter/xhttp/xgin" // 初始化http适配器
-            	"github.com/olongfen/go-ddd-hex/internal/application"
+            	_ "github.com/xjellyx/go-ddd-hex/internal/adapter/repository" // 初始化存储库适配器
+            	_ "github.com/xjellyx/go-ddd-hex/internal/adapter/xhttp/xgin" // 初始化http适配器
+            	"github.com/xjellyx/go-ddd-hex/internal/application"
             )
             
             func main() {
@@ -59,13 +59,13 @@ adapter->aplication->domain,domain层代码只像application层暴露。
         import (
         	"context"
         	"errors"
-        	"github.com/olongfen/go-ddd-hex/config"
-        	"github.com/olongfen/go-ddd-hex/internal/domain/aggregate"
-        	"github.com/olongfen/go-ddd-hex/internal/domain/dependency"
-        	"github.com/olongfen/go-ddd-hex/internal/domain/service"
-        	"github.com/olongfen/go-ddd-hex/internal/domain/vo"
-        	"github.com/olongfen/go-ddd-hex/internal/infra/db"
-        	"github.com/olongfen/go-ddd-hex/lib/utils"
+        	"github.com/xjellyx/go-ddd-hex/config"
+        	"github.com/xjellyx/go-ddd-hex/internal/domain/aggregate"
+        	"github.com/xjellyx/go-ddd-hex/internal/domain/dependency"
+        	"github.com/xjellyx/go-ddd-hex/internal/domain/service"
+        	"github.com/xjellyx/go-ddd-hex/internal/domain/vo"
+        	"github.com/xjellyx/go-ddd-hex/internal/infra/db"
+        	"github.com/xjellyx/go-ddd-hex/lib/utils"
         	"github.com/opentracing/opentracing-go"
         	log "github.com/sirupsen/logrus"
         	"github.com/uber/jaeger-client-go"
@@ -238,4 +238,4 @@ adapter->aplication->domain,domain层代码只像application层暴露。
     六边形框架设计起来会比较麻烦。 另外ddd清洁分层架构也是不错的框架， 领域驱动的原理和详细google有很多大佬详写，大家需要看
     详细内容可以自行google或者阅读上面我推荐两个链接文章，所以一些具体的解释本人就不献丑了，本项目是本人学习领域驱动框架之后
     进行设想开发的，欢迎大家一起指正或者改善。个人觉得应用层可以设计层框架使用，目前暂时还没有idea，也欢迎大佬们讨论。
-[项目地址](https://github.com/olongfen/go-ddd-hex)
+[项目地址](https://github.com/xjellyx/go-ddd-hex)

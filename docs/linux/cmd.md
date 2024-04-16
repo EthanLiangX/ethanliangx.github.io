@@ -176,6 +176,6 @@ git reflog --data=iso-strict | grep pull
         
         6. 提交文件: `git commit -m "feat: init project"`
         
-        7. 关联远程项目: `git remote add origin  https://github.com/olongfen/app.git(这个链接换成你的项目地址) `
+        7. 关联远程项目: `git remote add origin  https://github.com/xjellyx/app.git(这个链接换成你的项目地址) `
         
         8. push到远程: `git push -u origin master`

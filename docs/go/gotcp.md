@@ -12,12 +12,12 @@ server.go
 ```go
 package main
 
-// 运行前 先 go get  github.com/olongfen/docker
+// 运行前 先 go get  github.com/xjellyx/docker
 
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/olongfen/note/log"
+	"github.com/xjellyx/note/log"
 	"net"
 )
 
@@ -129,7 +129,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/olongfen/note/log"
+	"github.com/xjellyx/note/log"
 	"net"
 	"os"
 )
