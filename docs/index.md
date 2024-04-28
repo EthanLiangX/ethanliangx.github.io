@@ -7,12 +7,15 @@ hero:
   text: "Jelly's work note"
   tagline: 在宇宙的浩瀚中，每一颗星星都是一个梦想的起点，每一片星空都是一个未知的冒险。
   actions:
+    - theme: brand
+      text: linux
+      link: /linux/index
     - theme: alt
       text: gis
       link: /gis/index
     - theme: brand
-      text: linux
-      link: /linux/index
+      text: devops
+      link: /devops/index
 
 features:
   - title: gen-id

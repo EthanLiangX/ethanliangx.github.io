@@ -9,7 +9,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Linux', link: '/linux/index' },
-       { text: 'Gis', link: '/gis/index' }
+       { text: 'Gis', link: '/gis/index' },
+       { text: 'Devops', link: '/devops/index'}
     ],
 
     sidebar: [
@@ -24,6 +25,14 @@ export default defineConfig({
       {
         text: 'Gis',
         items: [
+          {text: 'GDAL', link: '/gis/gdal' }
+        ]
+      },
+      {
+        text: 'Devops',
+        items: [
+          {text: 'Docker', link: '/devops/docker' },
+          {text: 'Jenkins', link: '/devops/jenkins' }
         ]
       }
     ],
