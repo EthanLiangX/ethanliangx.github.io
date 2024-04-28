@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-8b5de950\",\"path\":\"/db-system-engineer/\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1686734751000,\"contributors\":[{\"name\":\"xjellyx\",\"email\":\"824426699@qq.com\",\"commits\":2}]},\"filePathRelative\":\"db-system-engineer/index.md\"}")

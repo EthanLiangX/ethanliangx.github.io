@@ -1,30 +1,28 @@
 ---
-home: true
-heroImage: /logo.png
-heroAlt: Logo image
-heroText: xjellyx 
-tagline: Daily DEV
-actionText: Get Started
-actionLink: /go/ 
-footer: MIT Licensed | © 2022-present xjellyx
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "JELLY WEBSITE"
+  text: "Jelly's work note"
+  tagline: 在宇宙的浩瀚中，每一颗星星都是一个梦想的起点，每一片星空都是一个未知的冒险。
+  actions:
+    - theme: alt
+      text: gis
+      link: /gis/index
+    - theme: brand
+      text: linux
+      link: /linux/install_ovirt
+
+features:
+  - title: gen-id
+    details: 自动生成中国居民身份证信息
+    link: https://github.com/xjellyx/gen-id
+  - title: gin-app
+    details: 基于领域驱动架构设计的一个api服务，orm框架使用gorm，web框架使用gin
+    link: https://github.com/xjellyx/gin-app
+  - title: gorm-generics
+    details: Go泛型实现gorm存储库的基本curd接口，减少每一个实体都编写重复代码
+    link: https://github.com/xjellyx/gorm-generics
 ---
 
-- [博客主页](https://xjellyx.github.io)
----
-- [go-ddd template](https://github.com/xjellyx/ddd-template/)
----
-- [互联网免费书籍](https://github.com/ruanyf/free-books)
----
-- [golang开源框架大全](https://github.com/jobbole/awesome-go-cn)
----
-- [golang自动生成身份证信息](https://github.com/xjellyx/gen-id)
----
-- [go语言圣经中文版在线教程](https://github.com/gopl-zh/gopl-zh.github.com)
----
-- [个人整理golang文档教材,(提取码：6emu)](https://pan.baidu.com/s/1vatkTa254Fh9ld6dSlGNYg)
----
-- [gorm-gin-admin后台项目](https://github.com/xjellyx/gorm-gin-admin)
----
-- [golang自动生成项目代码gengo](https://github.com/xjellyx/gengo)
----
-- [golang自动生成身份证信息gen-id](https://github.com/xjellyx/gen-id)
