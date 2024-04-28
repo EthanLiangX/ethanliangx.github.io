@@ -14,16 +14,16 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Gis',
+        text: 'Linux',
         items: [
-          { text: 'Main', link: '/gis/index' },
+          { text: 'Install Ovirt', link: '/linux/install_ovirt' },
+          {text: 'Network', link: '/linux/network' }
+
         ]
       },
       {
-        text: 'Linux',
+        text: 'Gis',
         items: [
-          { text: 'Main', link: '/linux/index' },
-          { text: 'Install Ovirt', link: '/linux/install_ovirt' },
         ]
       }
     ],

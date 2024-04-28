@@ -12,7 +12,7 @@ hero:
       link: /gis/index
     - theme: brand
       text: linux
-      link: /linux/install_ovirt
+      link: /linux/index
 
 features:
   - title: gen-id
