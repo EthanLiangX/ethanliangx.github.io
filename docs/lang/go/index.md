@@ -1,3 +1,4 @@
 # Golang
 
-## [字符串](strings.md)
+## [Strings](strings.md)
+## [Networks](networks.md)

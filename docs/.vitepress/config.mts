@@ -20,7 +20,8 @@ export default defineConfig({
         items: [
           { text: 'Go', link: '/lang/go/index',
             items: [
-              { text: 'Strings', link: '/lang/go/strings' }
+              { text: 'Strings', link: '/lang/go/strings' },
+              { text: 'Network', link: '/lang/go/networks' }
             ]
           }
         ]
