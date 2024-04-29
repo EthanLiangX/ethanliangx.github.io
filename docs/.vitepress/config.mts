@@ -7,19 +7,25 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Home', link: '/'},
+      {text: 'Lang',link: '/lang/index'},
       { text: 'Linux', link: '/linux/index' },
-       { text: 'Gis', link: '/gis/index' },
+       { text: 'GIS', link: '/gis/index' },
        { text: 'Devops', link: '/devops/index'}
     ],
 
     sidebar: [
       {
+        text: 'Lang',
+        items: [
+          { text: 'Go', link: '/lang/go/index' }
+            ]
+      },
+      {
         text: 'Linux',
         items: [
           { text: 'Install Ovirt', link: '/linux/install_ovirt' },
           {text: 'Network', link: '/linux/network' }
-
         ]
       },
       {

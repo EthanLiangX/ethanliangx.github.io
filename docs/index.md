@@ -8,13 +8,16 @@ hero:
   tagline: 在宇宙的浩瀚中，每一颗星星都是一个梦想的起点，每一片星空都是一个未知的冒险。
   actions:
     - theme: brand
-      text: linux
-      link: /linux/index
+      text: Lang
+      link: /lang/index
     - theme: alt
-      text: gis
-      link: /gis/index
+      text: Linux
+      link: /linux/index
     - theme: brand
-      text: devops
+      text: GIS
+      link: /gis/index
+    - theme: alt
+      text: Devops
       link: /devops/index
 
 features:
