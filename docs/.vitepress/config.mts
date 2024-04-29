@@ -10,16 +10,20 @@ export default defineConfig({
       { text: 'Home', link: '/'},
       {text: 'Lang',link: '/lang/index'},
       { text: 'Linux', link: '/linux/index' },
-       { text: 'GIS', link: '/gis/index' },
-       { text: 'Devops', link: '/devops/index'}
+      { text: 'GIS', link: '/gis/index' },
+      { text: 'Devops', link: '/devops/index'}
     ],
 
     sidebar: [
       {
         text: 'Lang',
         items: [
-          { text: 'Go', link: '/lang/go/index' }
+          { text: 'Go', link: '/lang/go/index',
+            items: [
+              { text: 'Strings', link: '/lang/go/strings' }
             ]
+          }
+        ]
       },
       {
         text: 'Linux',
