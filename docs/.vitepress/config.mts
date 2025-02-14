@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "JELLY WEBSITE",
-  description: "Jelly's work note",
+  title: "EthanLiangX WEBSITE",
+  description: "EthanLiangX's work note",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -29,7 +29,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/xjellyx' }
+      { icon: 'github', link: 'https://github.com/EthanLiangX' }
     ]
   }
 })
